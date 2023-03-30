@@ -7,7 +7,7 @@ $(window).scroll(function(){
 });
  });
 
- var text = '"Unleash your creativity with Embedded Systems in Embedathon"';
+ var text = '"Unleash your inner mad scientist with IoT!"';
  var index = 0;
  function typeWriter() {
      if (index < text.length) {

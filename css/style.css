@@ -10,6 +10,7 @@ html,body{
 	background:#000;
   /* max-width: 100vw; */
   overflow-x: hidden;
+  background: #222;
 }
 
 .header{
@@ -17,14 +18,13 @@ html,body{
   position: absolute;
   top: 0;
   display: flex;
-  justify-content: center;
-  align-items: center;
   z-index: 10;
 }
 .header img{
   padding: 0px;
   width:65px;
   margin-left: 30px;
+  padding: 5px;
 }
 .college{
 color: #999;
@@ -32,24 +32,29 @@ font-size: 33px;
 font-weight: bold;
 font-family: 'Oswald', sans-serif;
 margin-left: 30px;
+line-height: 28px;
+padding: 10px;
 }
 
 .embed{
   position: absolute;
   top: 80px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   height: auto;
 }
-.embed p{
+.embed h1{
   z-index: 10;
-  font-size: 15px;
-  color: grey;
-  margin-left: -5px;
+  font-size: 25px;
+  color: white;
+  margin-left: 2px;
+  /* font-family: monospace; */
+
 }
 .embed img{
-  width: 200px;
+  width: 60px;
+  filter: invert();
 }
 .welcome{
   width: 100vw;
@@ -73,10 +78,10 @@ margin-left: 30px;
   animation: textclip 5s linear infinite;
   background-image: linear-gradient(
     to right,
-    #ffffff 0%,
-    #7e7e7e 29%,
-    #a3a3a3 67%,
-    #ffffff 100%
+    #d86100 0%,
+    #dda200 29%,
+    #dda200 67%,
+    #d86100 100%
   );
   background-size: 200% auto;
   background-clip: text;
@@ -231,6 +236,9 @@ margin-bottom: 100px
   }
   .formcontainer {
   width: 100%;
+  }
+  .college{
+    font-size: 20px;
   }
 }
 

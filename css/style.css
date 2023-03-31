@@ -27,7 +27,7 @@ html,body{
   margin-left: 30px;
 }
 .college{
-color: rgb(15, 156, 250);
+color: #999;
 font-size: 33px;
 font-weight: bold;
 font-family: 'Oswald', sans-serif;
@@ -246,7 +246,7 @@ margin-bottom: 100px
 }
 .card{
   width: 40vw;
-  height: 60%;
+  height: 70%;
   background-color: yellowgreen;
   text-align: center;
 
@@ -276,7 +276,7 @@ margin-bottom: 100px
   text-decoration: none;
   border-radius: 25px;
   position: relative;
-  top: 10px;
+  top: 13px;
   font-size: 17px;
   font-weight: bold;
   color: white;
